@@ -1,10 +1,7 @@
-#require_relative 'garage'
-
-class Vehicle < Garage
+class Vehicle
 
   def initialize(year)
-    super
-    # @year = year
+    @year = year
     @lights_on = false
     @signal = "off"
   end

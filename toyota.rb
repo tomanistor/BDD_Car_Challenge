@@ -1,5 +1,4 @@
 require_relative 'car'
-require_relative 'garage'
 
 class Toyota < Car
 
@@ -8,6 +7,7 @@ class Toyota < Car
     @horn = "whoop"
     @faster = 7.0
     @slower = 5.0
+    @make = "Toyota"
   end
 
   def store

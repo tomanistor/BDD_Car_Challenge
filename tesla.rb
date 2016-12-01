@@ -1,4 +1,4 @@
-# require_relative 'car'
+require_relative 'car'
 
 class Tesla < Car
 
@@ -7,6 +7,7 @@ class Tesla < Car
     @horn = "Beep-bee-bee-boop-bee-doo-weep"
     @faster = 10.0
     @slower = 7.0
+    @make = "Tesla"
   end
 
   def store

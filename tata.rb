@@ -1,5 +1,4 @@
 require_relative 'car'
-require_relative 'garage'
 
 class Tata < Car
 
@@ -8,6 +7,7 @@ class Tata < Car
     @horn = "beep"
     @faster = 2.00
     @slower = 1.25
+    @make = "Tata"
   end
 
   def store

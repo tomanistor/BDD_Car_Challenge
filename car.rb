@@ -1,4 +1,4 @@
-# require_relative 'vehicle'
+require_relative 'vehicle'
 
 class Car < Vehicle
 
@@ -9,6 +9,7 @@ class Car < Vehicle
     @speed = 0
     @faster = 0.0
     @slower = 0.0
+    @make = ""
   end
 
   def wheels=(wheels)
@@ -41,6 +42,10 @@ class Car < Vehicle
 
   def brake
     @speed = @speed - @slower
+  end
+
+  def make
+    @make
   end
 
 end
